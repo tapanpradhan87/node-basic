@@ -12,7 +12,7 @@ const readFile = (path) => {
 const initApp = async () => {
     const data = await readFile('src/tests/test.txt');
     console.log(data);
-    console.log('Hello World')
+    console.log('Hello World');
 }
 
 initApp();
